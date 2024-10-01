@@ -24,6 +24,20 @@ body {
   inset: 0 0 auto 50px;
 }
 
+.btn-upgrade {
+  position: fixed;
+  z-index: 3;
+  padding: 0.8rem 2rem;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  top: 1.5rem;
+  right: 1.8rem;
+}
+
 /* # ASIDE */
 
 aside {
