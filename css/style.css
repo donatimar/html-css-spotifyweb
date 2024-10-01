@@ -49,6 +49,35 @@ aside {
   z-index: 97;
 }
 
+.container-aside img {
+  filter: invert(1);
+  width: 60%;
+  margin-top: 0.5rem;
+  margin-left: 0.5em;
+}
+
+.container-aside .fa-house {
+  color: #d2d2d2;
+  font-size: 1.5em;
+  margin-left: 0.4em;
+  margin-top: 0.5em;
+}
+
+.container-aside .fa-magnifying-glass {
+  color: #d2d2d2;
+  font-size: 1.5em;
+  margin-left: 0.4em;
+  margin-top: 0.5em;
+}
+
+.fa-lines-leaning {
+  color: #d2d2d2;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  transform: rotateZ(180deg) rotateX(180deg);
+}
+
 /* # MAIN */
 
 main {
