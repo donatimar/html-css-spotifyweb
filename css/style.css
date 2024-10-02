@@ -47,6 +47,10 @@ h5 {
   border-radius: 30%;
 }
 
+.volume-bar:hover {
+  background-color: #adff2f;
+}
+
 .volume-bar .bottom {
   position: absolute;
   width: 0.9rem;
@@ -56,6 +60,22 @@ h5 {
   top: -0.3rem;
   left: 2rem;
   opacity: 0;
+}
+
+.volume-bar .bottom2 {
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: -0.3em;
+  left: 0.9em;
+  opacity: 0;
+}
+
+.volume-bar:hover .bottom,
+.volume-bar:hover .bottom2 {
+  opacity: 1;
 }
 
 /* # HEADER */
@@ -82,6 +102,10 @@ h5 {
   font-size: 0.8rem;
   font-weight: bold;
   color: white;
+}
+
+.btn-upgrade:hover {
+  transform: scale(1.2);
 }
 
 /* # ASIDE */
@@ -125,6 +149,10 @@ aside {
   transform: rotateZ(180deg) rotateX(180deg);
 }
 
+.fa-lines-leaning:hover {
+  color: white;
+}
+
 .icon-bottom {
   position: absolute;
   inset: auto 0 0 0;
@@ -138,6 +166,10 @@ aside {
   border-radius: 100%;
   margin-left: 0.8rem;
   margin-bottom: 1.5rem;
+}
+
+.icon-bottom .fa-arrow-down:hover {
+  color: white;
 }
 
 .fa-circle-user {
@@ -179,6 +211,10 @@ nav a {
   font-size: 0.9rem;
 }
 
+nav a:hover {
+  color: white;
+}
+
 nav hr {
   width: 2rem;
   margin: -0.5rem auto;
@@ -200,6 +236,34 @@ nav hr {
 
 main .play {
   position: relative;
+}
+
+.play {
+  position: relative;
+}
+
+.play .fa-play {
+  font-size: 2em;
+  padding: 0.1em 0.3em;
+  border: 0.2em solid white;
+  border-radius: 50%;
+}
+
+.i-below {
+  position: absolute;
+  text-align: center;
+  top: 5.4em;
+  right: 5.3em;
+  color: white;
+  opacity: 0;
+}
+
+.play:hover img {
+  opacity: 0.5;
+}
+
+.play:hover .i-below {
+  opacity: 1.5;
 }
 
 .photo-flex h2 {
@@ -256,6 +320,12 @@ footer h5 {
   font-size: 0.7rem;
 }
 
+footer h5:hover {
+  border-bottom: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
 .icon-ft-sec1 {
   margin: 1.6rem;
 }
@@ -265,6 +335,11 @@ footer .fa-folder {
   color: #818181;
   font-size: 1.1rem;
   margin-right: 0.5em;
+}
+
+footer .fa-heart:hover,
+footer .fa-folder:hover {
+  color: white;
 }
 
 /* section2 */
@@ -296,6 +371,10 @@ footer .fa-folder {
   border: 0.2em solid white;
   border-radius: 100%;
   top: -0.2rem;
+}
+
+.footer-flex2 .fa-play:hover {
+  transform: scale(1.5);
 }
 
 .flex-audio {
