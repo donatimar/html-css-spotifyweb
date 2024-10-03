@@ -428,7 +428,7 @@ h6 {
 
 /* # MEDIA QUERY */
 
-/* small 568px */
+/* extra small 568px */
 
 @media screen and (min-width: 568px) {
   main {
@@ -594,7 +594,7 @@ h6 {
   }
 }
 
-/* middle 568px-875px */
+/* small 568px-875px */
 
 @media (min-width: 568px) and (max-width: 875px) {
   .circle-img {
@@ -631,7 +631,7 @@ h6 {
   }
 }
 
-/* large 876px */
+/* middle 876px */
 
 @media (min-width: 876px) and (max-width: 1439px) {
   .photo-flex1,
@@ -673,7 +673,7 @@ h6 {
   }
 }
 
-/* extra large */
+/* large */
 
 @media screen and (min-width: 1440px) {
   .photo-flex1,
