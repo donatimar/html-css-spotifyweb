@@ -279,6 +279,10 @@ footer {
   margin: 0.7rem;
 }
 
+.footer-text {
+  font-size: 0.7rem;
+}
+
 footer h2 {
   color: white;
   font-size: 1rem;
@@ -298,6 +302,7 @@ footer .fa-heart,
 footer .fa-folder {
   color: #d2d2d2;
   font-size: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 footer h5:hover {
