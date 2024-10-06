@@ -258,7 +258,7 @@ main {
 
 /* # FOOTER */
 
-/* section1 */
+/* Section 1 */
 
 footer {
   display: flex;
@@ -270,6 +270,7 @@ footer {
 .footer-flex1 {
   display: flex;
   flex: 0 1 25%;
+  align-items: center;
 }
 
 .footer-flex1 img {
@@ -278,8 +279,17 @@ footer {
   margin: 0.7rem;
 }
 
-.footer-flex1 h2 h5 {
-  font-size: 0.7rem;
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-text h2,
+.footer-text h5 {
+  margin: 0;
+  text-align: left;
 }
 
 footer h2 {
@@ -315,7 +325,7 @@ footer .fa-folder:hover {
   color: white;
 }
 
-/* section2 */
+/* Section 2 */
 
 .footer-flex2 {
   display: flex;
@@ -365,7 +375,7 @@ h6 {
   transform: scale(1.5);
 }
 
-/* section3 */
+/* Section 3 */
 
 .footer-flex3 .container-audio {
   margin: 2.7rem 0;
