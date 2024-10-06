@@ -336,7 +336,7 @@ footer .fa-folder:hover {
 }
 
 .footer-flex2 .container-audio {
-  width: 20vw;
+  width: 22vw;
   height: 0.3rem;
   background-color: #5a5a5a;
   border-radius: 30px;
@@ -349,11 +349,11 @@ footer .fa-folder:hover {
 }
 
 .footer-flex2 .fa-play {
-  padding: 0.1rem 0.3rem;
+  padding: 0.3rem 0.4rem;
   border: 0.2rem solid white;
   border-radius: 50%;
   position: relative;
-  top: -0.2rem;
+  top: -0.4rem;
 }
 
 .footer-flex2 h6 {
@@ -372,7 +372,7 @@ h6 {
 }
 
 .footer-flex2 .fa-play:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 /* Section 3 */
